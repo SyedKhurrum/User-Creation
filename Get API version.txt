@@ -1,0 +1,6 @@
+from simple_salesforce import Salesforce
+
+sf = Salesforce(username='khurrum.syed@brighthousefinancial.com.fullcopy1', password='torontoraptors1234kS!', security_token='o5Lnq85FAlchomgJD0hB3ZQWa', domain='test')
+
+
+print(sf.default_api_version)
